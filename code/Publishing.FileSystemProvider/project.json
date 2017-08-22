@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Sitecore.Framework.Publishing.Data": "2.1.30",
+    "Sitecore.Framework.Publishing.Data.Classic": "2.1.30",
+    "Sitecore.Framework.Publishing.Service.Sql": "2.1.30",
+    "Sitecore.Framework.Publishing.Service.Sql.Schema": "2.1.30"
+  },
+
+  "frameworks": {
+    "net452": {},
+    "net462": {}
+  }
+}

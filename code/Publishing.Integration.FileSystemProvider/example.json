@@ -1,0 +1,19 @@
+{
+    "ItemId": "",
+    "TemplateId":"",
+    "ItemName":"",
+    
+    "Fields":{
+        "FieldId":{
+            "Value":""
+        }
+    },
+
+    "Languages": {
+        "en-gb":{
+            "Version":{
+                "1" :{}
+            }
+        }
+    }
+}

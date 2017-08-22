@@ -1,0 +1,51 @@
+﻿<Settings>
+  <Sitecore>
+    <Publishing>
+      <Services>
+        <FileSystemItemDataProvider>
+          <Type>Publishing.FileSystemProvider.FileSystemItemDataProvider, Publishing.FileSystemProvider</Type>
+          <As>Publishing.FileSystemProvider.IFileSystemItemDataProvider, Publishing.FileSystemProvider</As>
+        </FileSystemItemDataProvider>
+
+        <FileSystemReadRepositoryBuilder>
+          <Type>Publishing.FileSystemProvider.FileSystemItemReadRepositoryBuilder, Publishing.FileSystemProvider</Type>
+          <As>Sitecore.Framework.Publishing.Repository.IRepositoryBuilder`1[[Sitecore.Framework.Publishing.Item.IIndexableItemReadRepository, Sitecore.Framework.Publishing.Service.Abstractions]], Sitecore.Framework.Publishing.Service.Abstractions</As>
+        </FileSystemReadRepositoryBuilder>
+
+        <DatabaseIdTableRepositoryBuilder>
+          <Type>Publishing.FileSystemProvider.DatabaseIdTableRepositoryBuilder, Publishing.FileSystemProvider</Type>
+          <As>Publishing.FileSystemProvider.IDatabaseIdTableRepositoryBuilder, Publishing.FileSystemProvider</As>
+        </DatabaseIdTableRepositoryBuilder>
+
+        <DefaultConnectionFactory>
+          <Options>
+            <Connections>
+              <CustomMasterFileSystem>
+                <Type>Publishing.FileSystemProvider.FileSystemConnection, Publishing.FileSystemProvider</Type>
+                <Options>
+                  <IdTablePrefix>pubExample</IdTablePrefix>
+                  <IdTableConnection>Master</IdTableConnection>
+                  <RootFolder>C:\Testground\chromedome2\Data\CustomItems</RootFolder>
+                </Options>
+              </CustomMasterFileSystem>
+            </Connections>
+          </Options>
+        </DefaultConnectionFactory>
+
+        <StoreFactory>
+          <Options>
+            <Stores>
+              <Sources>
+                <Master>
+                  <ConnectionNames>
+                    <customMasterFileSystem>CustomMasterFileSystem</customMasterFileSystem>
+                  </ConnectionNames>
+                </Master>
+              </Sources>
+            </Stores>
+          </Options>
+        </StoreFactory>
+      </Services>
+    </Publishing>
+  </Sitecore>
+</Settings>

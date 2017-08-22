@@ -1,0 +1,51 @@
+{
+  "ModelId": "133b85182d0348038ed03d7693df50db",
+  "TemplateId": "{4999AFD3-55D5-4D72-85AC-627798C2492A}",
+  "ItemName": "1135",
+  "Languages": [
+    {
+      "Language": "en",
+      "Versions": [
+        {
+          "Number": 1,
+          "Fields": [
+            {
+              "Id": "{D9CF14B1-FA16-4BA6-9288-E8A174D4D522}",
+              "Value": "20161013T103615Z"
+            },
+            {
+              "Id": "{52807595-0F8F-4B20-8D2A-CB71D28C6103}",
+              "Value": "sitecore\\Admin"
+            },
+            {
+              "Id": "{5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}",
+              "Value": "sitecore\\Admin"
+            },
+            {
+              "Id": "{BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}",
+              "Value": "sitecore\\Admin"
+            },
+            {
+              "Id": "{25BED78C-4957-4165-998A-CA1B52F67497}",
+              "Value": "20161013T103615Z"
+            },
+            {
+              "Id": "{8CDC337E-A112-42FB-BBB4-4143751E123F}",
+              "Value": "2528a73b-b2bb-4edb-99a7-825e6970638f"
+            },
+            {
+              "Id": "{F8298414-7507-4A51-AAEE-7B78EF586699}",
+              "Value": "some data"
+            },
+            {
+              "Id": "{CC888DFE-0CD5-424F-9876-34F11BE01622}",
+              "Value": "kgvhdslfd"
+            }
+          ]
+        }
+      ],
+      "Fields": []
+    }
+  ],
+  "Fields": []
+}

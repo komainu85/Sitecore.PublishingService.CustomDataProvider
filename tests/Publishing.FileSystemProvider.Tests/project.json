@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+  "dependencies": {
+    "Publishing.FileSystemProvider": { "target": "project" },
+    "Sitecore.Framework.Publishing.Data": "2.1.30",
+    "Sitecore.Framework.Publishing.Data.Classic": "2.1.30",
+    "Sitecore.Framework.Publishing.Service.Sql": "2.1.30",
+    "Sitecore.Framework.Publishing.Service.Sql.Schema": "2.1.30",
+    "xunit": "2.2.0-beta2-build3300",
+    "Sitecore.Framework.UnitTesting": "1.1.*",
+    "Microsoft.NETCore.Platforms": "1.1.0",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029"
+  },
+
+  "frameworks": {
+    "net452": {},
+    "net462": {}
+  },
+
+  "buildOptions": {
+    "copyToOutput": {
+      "include": [ "CustomItems" ]
+    }
+  }
+}
